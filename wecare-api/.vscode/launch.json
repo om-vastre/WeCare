@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WecareApplication<wecare>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wecare.wecare.WecareApplication",
+            "projectName": "wecare",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

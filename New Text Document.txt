@@ -1,0 +1,4 @@
+npm i
+npm i react-router-dom
+npm install axios
+npm start

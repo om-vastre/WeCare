@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Prescription Details</h2>
+    <table>
+        <tr>
+            <th>Parameter</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td th:text="${prescription.id}"></td>
+        </tr>
+        <tr>
+            <td>Bill Amount</td>
+            <td th:text="${prescription.billAmount}"></td>
+        </tr>
+        <tr>
+            <td>Test</td>
+            <td th:text="${prescription.test}"></td>
+        </tr>
+        <tr>
+            <td>Test Result</td>
+            <td th:text="${prescription.testResult}"></td>
+        </tr>
+        <tr>
+            <td>Prescription</td>
+            <td th:text="${prescription.prescription}"></td>
+        </tr>
+        <tr>
+            <td>Body Part Name</td>
+            <td th:text="${prescription.bodyPartName}"></td>
+        </tr>
+        <tr>
+            <td>XRay Image Link</td>
+            <td th:text="${prescription.xRayImageLink}"></td>
+        </tr>
+        <tr>
+            <td>Surgery Time</td>
+            <td th:text="${prescription.surgeryTime}"></td>
+        </tr>
+    </table>
+</body>
+</html>
