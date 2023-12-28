@@ -11,6 +11,8 @@ Figma Design : https://lnkd.in/d6F_zBPG
 
 Postman API Documentation : https://lnkd.in/dHT_KibF
 
+Drive(Screenshots) : https://drive.google.com/drive/folders/18uMMbdLKidlq3orxy-CRwgcj9mh4Bgm-?usp=sharing
+
 
 
 🔍 Features & Highlights:
